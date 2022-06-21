@@ -6,11 +6,13 @@
         display: flex;
         justify-content: center;
         background-color: lightcyan;
+        border: solid 1px lightgrey;
     }
     a {
         display: flex;
         justify-content: center;
         margin: .5em;
+        padding: 1em;
     }
     ul {
         list-style: none;
@@ -22,7 +24,28 @@
     h1 {
         display: flex;
         justify-content: center;
+        margin-top: 0;
     }
+    body {
+        font-family: Arial;
+    }
+
+    .sub-section {
+        font-style: italic;
+    }
+
+    h1, h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 1em;
+    }
+
+    footer > p {
+        margin-top: 5em;
+    }
+
 }
 
 
