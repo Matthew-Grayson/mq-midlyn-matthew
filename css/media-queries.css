@@ -18,7 +18,7 @@
         list-style: none;
         padding-left: 0;
     }
-    li {
+    .nav-links>li {
         background-color: lightgrey;
     }
     h1 {
@@ -27,7 +27,7 @@
         margin-top: 0;
     }
     body {
-        font-family: Arial;
+        font-family: Arial, sans-serif;
     }
 
     .sub-section {
@@ -44,6 +44,13 @@
 
     footer > p {
         margin-top: 5em;
+    }
+    .social {
+        max-width: 4.5em;
+    }
+    #social-media-links ul {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
@@ -64,6 +71,7 @@
         background: none;
     }
     img {
+        width: 100%;
         display: flex;
         float: left;
         clear: left;
@@ -77,9 +85,6 @@
         float: left;
         max-width: 30%;
         margin-left: 3em;
-    }
-    .social {
-        max-width: 5em;
     }
     footer > p {
         float: left;
