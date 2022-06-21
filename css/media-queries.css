@@ -68,7 +68,6 @@
         display: flex;
         float: right;
         margin: 0;
-        background: none;
     }
     img {
         width: 100%;
@@ -89,5 +88,7 @@
     footer > p {
         float: left;
     }
-
+    .nav-links>li {
+        background: none;
+    }
 }
