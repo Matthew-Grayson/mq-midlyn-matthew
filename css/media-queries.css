@@ -55,6 +55,7 @@
     }
     h1 {
         float: left;
+        margin: 1em 0;
     }
     ul, li {
         display: flex;
@@ -76,9 +77,10 @@
         float: left;
         max-width: 30%;
         margin-left: 3em;
-
     }
-
+    .social {
+        max-width: 5em;
+    }
     footer > p {
         float: left;
     }
