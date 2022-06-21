@@ -65,15 +65,22 @@
     img {
         display: flex;
         float: left;
-        clear: left
+        clear: left;
+
     }
     .main {
         float: left;
-        max-width: 50%;
+        max-width: 60%;
     }
     .sub-section {
         float: left;
-        max-width: 50%;
+        max-width: 30%;
+        margin-left: 3em;
+
+    }
+
+    footer > p {
+        float: left;
     }
 
 }
